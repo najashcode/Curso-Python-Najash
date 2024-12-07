@@ -105,3 +105,14 @@ while True:
         calculadora(numero, opciones_dict[opcion])
     except ValueError:
         print("Por favor, introduce un número válido.")
+
+
+
+
+
+def devuelve (num1, num2):
+    return num1 + num2
+
+result = devuelve(3,5)
+
+print(result)
